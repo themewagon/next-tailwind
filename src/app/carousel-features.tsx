@@ -9,7 +9,7 @@ export function CarouselFeatures() {
     <div className="px-8 py-56">
       <section
         className="container mx-auto !rounded-lg bg-center py-10 lg:px-16 bg-cover bg-no-repeat"
-        style={{ backgroundImage: "url('/next-tailwind/image/Background.png')" }}
+        style={{ backgroundImage: "url('/next-tailwind/next-tailwind/image/Background.png')" }}
       >
         <Carousel
           transition={{ duration: 1 }}
@@ -20,9 +20,8 @@ export function CarouselFeatures() {
               {new Array(length).fill("").map((_, i) => (
                 <span
                   key={i}
-                  className={`block h-1 w-10 cursor-pointer transition-all content-[''] ${
-                    activeIndex === i ? "bg-white" : "bg-white/50"
-                  }`}
+                  className={`block h-1 w-10 cursor-pointer transition-all content-[''] ${activeIndex === i ? "bg-white" : "bg-white/50"
+                    }`}
                   onClick={() => setActiveIndex(i)}
                 />
               ))}
@@ -60,7 +59,7 @@ export function CarouselFeatures() {
                 <Image
                   width={768}
                   height={768}
-                  src="/image/logos/logo-amazon 3.svg"
+                  src="/next-tailwind/image/next-tailwind/logos/logo-amazon 3.svg"
                   alt="testimonial image"
                   className="h-full w-2/4 object-contain md:!w-2/3"
                 />
