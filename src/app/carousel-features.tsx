@@ -7,7 +7,10 @@ import { Typography, Carousel } from "@material-tailwind/react";
 export function CarouselFeatures() {
   return (
     <div className="px-8 py-56">
-      <section className="container mx-auto !rounded-lg bg-[url('/image/Background.png')] bg-center py-10 lg:px-16">
+      <section
+        className="container mx-auto !rounded-lg bg-center py-10 lg:px-16 bg-cover bg-no-repeat"
+        style={{ backgroundImage: "url('/next-tailwind/image/Background.png')" }}
+      >
         <Carousel
           transition={{ duration: 1 }}
           nextArrow={() => <></>}
