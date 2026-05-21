@@ -59,7 +59,7 @@ export function CarouselFeatures() {
                 <Image
                   width={768}
                   height={768}
-                  src="/next-tailwind/image/next-tailwind/logos/logo-amazon 3.svg"
+                  src="/next-tailwind/image/logos/logo-amazon 3.svg"
                   alt="testimonial image"
                   className="h-full w-2/4 object-contain md:!w-2/3"
                 />
